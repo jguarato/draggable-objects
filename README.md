@@ -1,4 +1,4 @@
-## ✈️ Dragging object
+## ✈️ Dragging objects
 
 * Animation developed with JavaScript;
 * Click on the object, hold and drag;
