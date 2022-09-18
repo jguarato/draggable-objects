@@ -1,38 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500;600&display=swap");
+
+html,
 body {
     height: 100vh;
+    width: 100vw;
     margin: 0;
+    padding: 0;
     display: grid;
     background: rgb(2, 0, 36);
     background: linear-gradient(
-        180deg,
+        45deg,
         rgba(2, 0, 36, 1) 0%,
         rgba(9, 9, 121, 1) 35%,
         rgba(50, 121, 210, 1) 100%
     );
     font-family: Poppins;
+    user-select: none;
+}
+
+.container {
+    height: 80vh;
+    display: grid;
+    place-items: center;
 }
 
 h1 {
+    font-size: 4.5vh;
     text-align: center;
     color: white;
 }
 
 .fly {
-    margin: auto;
-    margin-top: -100px;
-    font-size: 10rem;
-    user-select: none;
-    padding: 2rem;
+    font-size: 20vmin;
 }
 
 .fly:hover {
     cursor: grab;
-    font-size: 12rem;
+    font-size: 22vmin;
 }
 
 .fly:active {
     cursor: grabbing;
-    font-size: 12rem;
+    font-size: 22vmin;
 }
 
 #airplane {
@@ -41,18 +50,22 @@ h1 {
 }
 
 footer {
-    bottom: 0px;
-    position: fixed;
-    padding: 10px;
+    margin-left: 5vw;
+    width: fit-content;
+    text-align: left;
+    font-size: 2.5vh;
     font-weight: 600;
     color: #1c1c1e;
-    text-align: right;
 }
 
-.name-light {
+.pens-light {
     color: #1a238f;
     text-decoration: none;
-    background: linear-gradient(to right, #1a238f 50%, #ff3300 100%);
+    background: linear-gradient(
+        to right,
+        rgb(89, 193, 208) 30%,
+        rgb(195, 223, 90) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
